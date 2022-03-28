@@ -1,8 +1,131 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+body {
+    margin: 0;
+  }
+  /*
+  Colors:
+  Text: 1A1A1A
+  Green: #00B172
+  White: #FFF
+  */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 5vh;
+    width: auto;
+  }
+  
+  nav {
+    width: 55vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .concert {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .concert > h2,
+  .concert > p {
+    color: white;
+    width: 60%;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+  }
+  
+  .three-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+  }
+  
+  .card > img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .card > h4 {
+    color: #00b172;
+  }
+  
+  .card > p {
+    text-align: center;
+    width: 80%;
+  }
+  
+  .section-2 {
+    background-color: #00b172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+  }
+  
+  h4 {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+  }
+  
+  .section-2 h4,
+  .section-2 h5,
+  .section-2 p {
+    color: white;
+  }
+  
+  .inner-div-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: flex-start; */
+  }
+  
+  .inner-div-left {
+    width: 50%;
+  }
+  
+  .inner-div-right {
+    align-self: center;
+    margin-right: 7vw;
+  }
+  
+  .inner-div-right > img {
+    height: 60px;
+  }
+  
+  .section-2 > img {
+    width: 35%;
+  }
+ 
+  
